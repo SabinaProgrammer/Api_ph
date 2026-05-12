@@ -1,0 +1,15 @@
+info:
+  name: GetToken
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://192.168.5.30:8071/api/Authen/GetToken
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
