@@ -1,0 +1,19 @@
+info:
+  name: GetCustomer_Confirm_Receive
+  type: http
+  seq: 7
+
+http:
+  method: GET
+  url: https://localhost:7219/api/PH/GetCustomer?pcid=000001
+  params:
+    - name: pcid
+      value: "000001"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

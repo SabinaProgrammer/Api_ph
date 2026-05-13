@@ -1,0 +1,24 @@
+info:
+  name: SaveConfirm_Receive
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: https://localhost:7219/api/PH/SavePH_Confirm_Receive
+  body:
+    type: json
+    data: |-
+      {
+        "userID": "F001",
+        "dvids": [
+          "DS24000001"
+        ]
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
