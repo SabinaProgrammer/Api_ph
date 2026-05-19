@@ -1,5 +1,5 @@
 info:
-  name: GetCustomer_Confirm_Receive
+  name: Customer_Confirm_Receive
   type: http
   seq: 7
 
