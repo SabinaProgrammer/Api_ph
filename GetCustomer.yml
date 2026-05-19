@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: http://192.168.5.30:8071/api/PH/GetCustomer?pcid=000001
+  url: http://192.168.5.30:8071/api/PH/GetCustomer?pcid=000005
   params:
     - name: pcid
-      value: "000001"
+      value: "000005"
       type: query
   auth: inherit
 
