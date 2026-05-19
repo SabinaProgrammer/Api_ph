@@ -5,8 +5,7 @@ info:
 
 http:
   method: GET
-
-
+  url: http://192.168.5.30:8071/api/PH/GetCustomer?pcid=000002
   params:
     - name: pcid
       value: "000002"
