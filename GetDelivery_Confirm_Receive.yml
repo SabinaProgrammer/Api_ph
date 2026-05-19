@@ -5,7 +5,11 @@ info:
 
 http:
   method: GET
-  url: ""
+  url: http://192.168.5.30:8071/api/PH/GetDelivery?id=F001
+  params:
+    - name: id
+      value: F001
+      type: query
   auth: inherit
 
 settings:

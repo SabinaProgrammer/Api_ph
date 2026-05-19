@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: ""
+  url: http://192.168.5.30:8071/api/PH/GetMENUWEB
   auth: inherit
 
 settings:
