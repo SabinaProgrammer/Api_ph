@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: https://localhost:7219/api/PH/GetCustomer?pcid=000001
+  url: https://localhost:7219/api/PH/GetCustomer?pcid=000002
   params:
     - name: pcid
-      value: "000001"
+      value: "000002"
       type: query
   auth: inherit
 
