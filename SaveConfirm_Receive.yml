@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://192.168.5.30:8071/api/PH/SaveConfirm_Receive
+  url: http://192.168.5.30:8071/api/Inter/SaveConfirm_Receive
   body:
     type: json
     data: |-

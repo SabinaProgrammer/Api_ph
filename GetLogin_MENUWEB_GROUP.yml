@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://192.168.5.30:8071/api/PH/GetLogin_MENUWEB_GROUP
+  url: http://192.168.5.30:8071/api/inter/GetLogin_MENUWEB_GROUP
   body:
     type: json
     data: |-
