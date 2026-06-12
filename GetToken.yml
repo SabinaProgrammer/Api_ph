@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://192.168.5.30:8071/api/Authen/GetToken
+  url: http://192.168.5.30:8072/api/Authen/GetToken
   auth: inherit
 
 settings:
