@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://192.168.5.30:8071/api/Inter/GetCustomer?pcid=000001
+  url: "{{base_url}}/api/Inter/GetCustomer?pcid=000001"
   params:
     - name: pcid
       value: "000001"
@@ -17,3 +17,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

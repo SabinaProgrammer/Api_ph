@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: https://localhost:7219/api/Inter/GetByID?id=DS24040508
+  url: "{{base_url}}/api/Inter/GetByID?id=DS24040508"
   params:
     - name: id
       value: DS24040508
