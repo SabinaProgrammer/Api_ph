@@ -1,0 +1,4 @@
+name: TestPH
+variables:
+  - name: base_url
+    value: http://192.168.5.30:8071
