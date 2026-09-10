@@ -1,0 +1,52 @@
+info:
+  name: InsertReturn
+  type: http
+  seq: 8
+
+http:
+  method: POST
+  url: "{{base_url}}/api/Inter/InsertReturn"
+  body:
+    type: json
+    data: |-
+      {
+        "CUSTOMERID": "001622",
+        "PCDATE": "2026-09-10T00:00:00",
+        "TOTALQTY": 10,
+        "TOTALPRICE": 2500,
+        "RTV": "",
+        "RTGNO": "",
+        "USERID": "admin",
+        "BOXQTY": 1,
+        "PREMIUMBOX": 0,
+        "REMARK": "รับคืนสินค้า",
+        "RCDOC": "",
+        "Details": [
+          {
+            "PRODUCTID": "100001",
+            "PRICE": 250,
+            "QTYNORMAL": 5,
+            "QTYDEFECT": 0,
+            "QTYCHECK": 0,
+            "QTYPOS": 5,
+            "QTYDIFF": 0
+          },
+          {
+            "PRODUCTID": "100002",
+            "PRICE": 300,
+            "QTYNORMAL": 5,
+            "QTYDEFECT": 0,
+            "QTYCHECK": 0,
+            "QTYPOS": 5,
+            "QTYDIFF": 0
+          }
+        ]
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: true

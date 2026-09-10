@@ -1,14 +1,14 @@
 info:
-  name: GetDelivery_Confirm_Receive
+  name: GetSearchReturn
   type: http
-  seq: 4
+  seq: 1
 
 http:
   method: GET
-  url: "{{base_url}}/api/Inter/GetDelivery?id=OL0005"
+  url: "{{base_url}}/api/Inter/GetSearchReturn?txt=RA26001168"
   params:
-    - name: id
-      value: OL0005
+    - name: txt
+      value: RA26001168
       type: query
   auth: inherit
 

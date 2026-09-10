@@ -1,15 +1,11 @@
 info:
-  name: GetByID
+  name: GetCustomerByID
   type: http
-  seq: 8
+  seq: 9
 
 http:
   method: GET
-  url: "{{base_url}}/api/Inter/GetByID?id=DS24040850"
-  params:
-    - name: id
-      value: DS24040850
-      type: query
+  url: ""
   auth: inherit
 
 settings:

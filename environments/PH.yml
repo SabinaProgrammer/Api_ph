@@ -1,0 +1,5 @@
+name: PH
+variables:
+  - name: base_url
+    value: https://ph-portal.sabina.co.th
+    description: ""

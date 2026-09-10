@@ -1,0 +1,47 @@
+info:
+  name: UpdateReturn
+  type: http
+  seq: 9
+
+http:
+  method: POST
+  url: "{{base_url}}/api/Inter/UpdateReturn"
+  body:
+    type: json
+    data: |-
+      {
+        "DOCNO": "RA26000001",
+        "SendBoxID": "L26000001",
+        "WAREHOUSEID": "WH01",
+        "BOXQTY": 1,
+        "PREMIUMBOX": 0,
+        "PCDATE": "2026-09-10T00:00:00",
+        "REMARK": "แก้ไขรายการคืนสินค้า",
+        "RTV": "",
+        "RTGNO": "",
+        "UserID": "admin",
+        "TOTALQTY": 10,
+        "TOTALPRICE": 2500,
+        "Details": [
+          {
+            "PRODUCTID": "100001",
+            "PRICE": 250,
+            "QTY": 5,
+            "QTYDIFF": 0
+          },
+          {
+            "PRODUCTID": "100002",
+            "PRICE": 300,
+            "QTY": 5,
+            "QTYDIFF": 0
+          }
+        ]
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: true

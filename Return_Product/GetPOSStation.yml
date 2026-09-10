@@ -1,14 +1,14 @@
 info:
-  name: GetDelivery_Confirm_Receive
+  name: GetPOSStation
   type: http
   seq: 4
 
 http:
   method: GET
-  url: "{{base_url}}/api/Inter/GetDelivery?id=OL0005"
+  url: "{{base_url}}/api/Inter/GetPOSStationID?pcid=chat"
   params:
-    - name: id
-      value: OL0005
+    - name: pcid
+      value: chat
       type: query
   auth: inherit
 
