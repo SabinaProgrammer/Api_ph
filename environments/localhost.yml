@@ -1,0 +1,5 @@
+name: localhost
+variables:
+  - name: base_url
+    value: https://localhost:7219
+    description: ""
