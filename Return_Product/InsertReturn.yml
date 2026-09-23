@@ -1,7 +1,7 @@
 info:
   name: InsertReturn
   type: http
-  seq: 8
+  seq: 7
 
 http:
   method: POST
@@ -12,33 +12,33 @@ http:
       {
         "CUSTOMERID": "DP010",
         "PCDATE": "2026-09-11T00:00:00",
-        "TOTALQTY": 10,
-        "TOTALPRICE": 2500,
+        "TOTALQTY": 2, 
+        "TOTALPRICE": 2500, //Price*TOTALQTY
         "RTV": "",
         "RTGNO": "",
         "USERID": "admin",
         "BOXQTY": 1,
         "PREMIUMBOX": 1,
-        "REMARK": "รับคืนสินค้า",
+        "REMARK": "ReturnPRODUCT",
         "RCDOC": "",
         "Details": [
           {
             "PRODUCTID": "HBON1024SDB40",
-            "PRICE": 250,
+            "PRICE": 400000,
             "QTYNORMAL": 0,
             "QTYDEFECT": 0,
-            "QTYCHECK": 0,//QTYCHECK=0 ตลอด
-            "QTYPOS": 7, //QTY
-            "QTYDIFF": 0 //-ติดลบ QTYPOS * -1
+            "QTYCHECK": 0,//QTYCHECK=0 ตลอด =WHQTY
+            "QTYPOS": 1, //QTY
+            "QTYDIFF": -1 //-ติดลบ QTYPOS * -1
           },
           {
             "PRODUCTID": "SUZ23044MUC3XL",
-            "PRICE": 300,
-            "QTYNORMAL": 9,
+            "PRICE": 250000,
+            "QTYNORMAL": 0,
             "QTYDEFECT": 0,
             "QTYCHECK": 0,
-            "QTYPOS": 6,
-            "QTYDIFF": 0
+            "QTYPOS": 1,
+            "QTYDIFF": -1
           }
         ]
       }

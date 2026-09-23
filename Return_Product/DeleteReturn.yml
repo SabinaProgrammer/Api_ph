@@ -1,7 +1,7 @@
 info:
   name: DeleteReturn
   type: http
-  seq: 10
+  seq: 9
 
 http:
   method: POST
@@ -10,7 +10,7 @@ http:
     type: json
     data: |-
       {
-        "DOCNO": "RT26000001",
+        "DOCNO": "RA26001168",
         "UserID": "admin"
       }
   auth: inherit
