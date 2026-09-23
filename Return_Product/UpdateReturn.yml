@@ -1,7 +1,7 @@
 info:
   name: UpdateReturn
   type: http
-  seq: 9
+  seq: 8
 
 http:
   method: POST
@@ -10,30 +10,30 @@ http:
     type: json
     data: |-
       {
-        "DOCNO": "RA26000001",
-        "SendBoxID": "L26000001",
-        "WAREHOUSEID": "WH01",
+        "DOCNO": "RA26001182",
+        "SendBoxID": "0001092026",
+        "WAREHOUSEID": "",//ค่าว่าง
         "BOXQTY": 1,
-        "PREMIUMBOX": 0,
-        "PCDATE": "2026-09-10T00:00:00",
-        "REMARK": "แก้ไขรายการคืนสินค้า",
+        "PREMIUMBOX": 1,
+        "PCDATE": "2026-09-11T00:00:00",
+        "REMARK": "ReturnPRODUCT",
         "RTV": "",
         "RTGNO": "",
         "UserID": "admin",
-        "TOTALQTY": 10,
-        "TOTALPRICE": 2500,
+        "TOTALQTY": 7,
+        "TOTALPRICE": 1900000,
         "Details": [
           {
-            "PRODUCTID": "100001",
-            "PRICE": 250,
-            "QTY": 5,
+            "PRODUCTID": "HBON1024SDB40",
+            "PRICE": 400000,
+            "QTY": 1,
             "QTYDIFF": 0
           },
           {
-            "PRODUCTID": "100002",
-            "PRICE": 300,
+            "PRODUCTID": "SUZ23044MUC3XL",
+            "PRICE": 650000,
             "QTY": 5,
-            "QTYDIFF": 0
+            "QTYDIFF": -5
           }
         ]
       }

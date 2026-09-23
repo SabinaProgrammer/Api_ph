@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/api/Inter/GetSearchReturn?txt=RA26001168"
+  url: "{{base_url}}/api/Inter/GetSearchReturn?txt=DP010"
   params:
     - name: txt
-      value: RA26001168
+      value: DP010
       type: query
   auth: inherit
 
