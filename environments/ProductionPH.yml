@@ -1,0 +1,5 @@
+name: ProductionPH
+variables:
+  - name: base_url
+    value: http://appportal.sabina.co.th:8071
+    description: ""

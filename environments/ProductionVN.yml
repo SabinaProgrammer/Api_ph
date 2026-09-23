@@ -1,0 +1,5 @@
+name: ProductionVN
+variables:
+  - name: base_url
+    value: http://appportal.sabina.co.th:8072
+    description: ""
