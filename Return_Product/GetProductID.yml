@@ -5,19 +5,16 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/api/Inter/GetProductID?productID=HBON1024SDB40&qty=2&posID=DP010&rtgNo="
+  url: "{{base_url}}/api/Inter/GetProductID?productID=HBA24003NBBKA32&qty=2&posID=0001"
   params:
     - name: productID
-      value: HBON1024SDB40
+      value: HBA24003NBBKA32
       type: query
     - name: qty
       value: "2"
       type: query
     - name: posID
-      value: DP010
-      type: query
-    - name: rtgNo
-      value: ""
+      value: "0001"
       type: query
   auth: inherit
 
