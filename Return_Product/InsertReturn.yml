@@ -10,35 +10,23 @@ http:
     type: json
     data: |-
       {
-        "CUSTOMERID": "DP010",
+        "CUSTOMERID": "0001",
         "PCDATE": "2026-09-11T00:00:00",
         "TOTALQTY": 2, 
         "TOTALPRICE": 2500, //Price*TOTALQTY
-        "RTV": "",
-        "RTGNO": "",
-        "USERID": "admin",
-        "BOXQTY": 1,
-        "PREMIUMBOX": 1,
+        "USERID": "admin", //create user
+        "BOXQTY": 1, // ไม่มีลงเป็น 0
+        "PREMIUMBOX": 1, // ไม่มีลงเป็น 0
         "REMARK": "ReturnPRODUCT",
-        "RCDOC": "",
         "Details": [
           {
-            "PRODUCTID": "HBON1024SDB40",
+            "PRODUCTID": "HBA24003NBBKA32",
             "PRICE": 400000,
             "QTYNORMAL": 0,
             "QTYDEFECT": 0,
             "QTYCHECK": 0,//QTYCHECK=0 ตลอด =WHQTY
-            "QTYPOS": 1, //QTY
-            "QTYDIFF": -1 //-ติดลบ QTYPOS * -1
-          },
-          {
-            "PRODUCTID": "SUZ23044MUC3XL",
-            "PRICE": 250000,
-            "QTYNORMAL": 0,
-            "QTYDEFECT": 0,
-            "QTYCHECK": 0,
-            "QTYPOS": 1,
-            "QTYDIFF": -1
+            "QTYPOS": 2, //QTY
+            "QTYDIFF": -2 //-ติดลบ QTYPOS * -1
           }
         ]
       }
